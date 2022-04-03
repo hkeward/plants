@@ -22,9 +22,17 @@ export default {
   background: #dafc54;
   height: 100%;
   border-radius: 0 10px 10px 0;
+  font-size: 24px;
+  min-width: 80px;
 }
 
 li {
   margin: 10px 10px 0 10px;
+  color: #383043;
+}
+
+a.router-link-exact-active {
+  font-weight: bold;
+  color: #290d4e;
 }
 </style>

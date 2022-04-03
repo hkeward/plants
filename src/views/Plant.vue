@@ -1,5 +1,9 @@
 <template>
-  <div>
+  <div class="plant_info">
+    <router-link id="back" to="/plants"
+      ><font-awesome-icon style="margin-right: 10px" icon="chevron-left" />Back
+      to plant list</router-link
+    >
     <component :is="plant_data" class="plant-markdown"></component>
   </div>
 </template>
@@ -18,7 +22,6 @@ export default {
   },
   computed: {
     plant_data() {
-      console.log(this.plantName);
       return defineAsyncComponent(() =>
         import(`@/assets/plants/${this.plantName}.md`)
       );
@@ -30,5 +33,14 @@ export default {
 <style>
 .plant-markdown {
   text-align: left;
+}
+
+.plant_info {
+  display: flex;
+  flex-direction: column;
+}
+
+#back {
+  margin-top: 15px;
 }
 </style>

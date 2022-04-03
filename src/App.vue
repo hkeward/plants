@@ -15,6 +15,11 @@ export default {
 </script>
 
 <style lang="less">
+@import (css)
+  url("https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap");
+@import (css)
+  url("https://fonts.googleapis.com/css2?family=Send+Flowers&family=Share+Tech+Mono&display=swap");
+
 html,
 body {
   height: 100%;
@@ -22,7 +27,7 @@ body {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Share Tech Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -39,12 +44,29 @@ body {
 }
 
 #content {
-  height: 100%;
   margin-left: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+  font-family: "Send Flowers", cursive;
+}
+
+h1 {
+  font-size: 32px;
 }
 
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 </style>
