@@ -1,15 +1,29 @@
 <template>
   <div>
-    <Lobelia class="plant-markdown" />
+    <component :is="plant_data" class="plant-markdown"></component>
   </div>
 </template>
 
 <script>
-import Lobelia from "../assets/plants/Lobelia.md";
+// import Lobelia from `../assets/plants/${this.plant_name}.md`;
+import { defineAsyncComponent } from "vue";
 
 export default {
   name: "Plant",
-  components: { Lobelia },
+  props: {
+    plantName: {
+      type: String,
+      required: true,
+    },
+  },
+  computed: {
+    plant_data() {
+      console.log(this.plantName);
+      return defineAsyncComponent(() =>
+        import(`@/assets/plants/${this.plantName}.md`)
+      );
+    },
+  },
 };
 </script>
 
