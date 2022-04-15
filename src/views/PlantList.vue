@@ -11,7 +11,7 @@
           ><font-awesome-icon
             style="margin-right: 5px; font-size: 15px"
             icon="leaf"
-          />{{ plant.replace("-", " ").replace("_", " ") }}</router-link
+          />{{ plant.replace(/-/g, " ").replace(/_/g, " ") }}</router-link
         >
       </li>
     </ul>

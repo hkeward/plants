@@ -36,6 +36,7 @@ body {
 }
 
 #app-view {
+  flex: 1;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -45,6 +46,8 @@ body {
 
 #content {
   margin-left: 1em;
+  width: 100%;
+  overflow-y: scroll;
 }
 
 h1,
