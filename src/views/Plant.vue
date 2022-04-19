@@ -47,4 +47,14 @@ export default {
 img {
   max-width: 95%;
 }
+
+table {
+  width: 95%;
+}
+
+table,
+th,
+td {
+  border: 3px solid black;
+}
 </style>

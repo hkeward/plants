@@ -44,6 +44,5 @@ export default {
 <style>
 .plant_item {
   margin: 14px 0;
-  font-size: 20px;
 }
 </style>

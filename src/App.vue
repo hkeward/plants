@@ -18,12 +18,16 @@ export default {
 @import (css)
   url("https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap");
 @import (css)
-  url("https://fonts.googleapis.com/css2?family=Send+Flowers&family=Share+Tech+Mono&display=swap");
+  url("https://fonts.googleapis.com/css2?family=Send+Flowers&family=Share+Tech+Mono&family=Indie+Flower&family=Permanent+Marker&display=swap");
 
 html,
 body {
   height: 100%;
   margin: 0px;
+}
+
+body {
+  font-size: 200%;
 }
 
 #app {
@@ -54,18 +58,12 @@ h1,
 h2,
 h3,
 h4,
-h5,
-ul {
-  font-family: "Send Flowers", cursive;
+h5 {
+  font-family: "Permanent Marker", cursive;
 }
 
 h1 {
   font-size: 32px;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
 }
 
 a {

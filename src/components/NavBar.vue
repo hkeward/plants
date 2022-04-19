@@ -22,8 +22,7 @@ export default {
   background: #dafc54;
   height: 100%;
   border-radius: 0 10px 10px 0;
-  font-size: 24px;
-  min-width: 80px;
+  font-size: 150%;
 }
 
 li {
@@ -34,5 +33,10 @@ li {
 a.router-link-exact-active {
   font-weight: bold;
   color: #290d4e;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 </style>
