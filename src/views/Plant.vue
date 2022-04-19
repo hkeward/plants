@@ -43,4 +43,8 @@ export default {
 #back {
   margin-top: 15px;
 }
+
+img {
+  max-width: 95%;
+}
 </style>
