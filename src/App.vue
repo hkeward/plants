@@ -26,10 +26,6 @@ body {
   margin: 0px;
 }
 
-body {
-  font-size: 200%;
-}
-
 #app {
   font-family: "Share Tech Mono", monospace;
   -webkit-font-smoothing: antialiased;
@@ -50,6 +46,7 @@ body {
 
 #content {
   margin-left: 1em;
+  margin-right: 1em;
   width: 100%;
   overflow-y: scroll;
 }

@@ -22,7 +22,6 @@ export default {
   background: #dafc54;
   height: 100%;
   border-radius: 0 10px 10px 0;
-  font-size: 150%;
 }
 
 li {
