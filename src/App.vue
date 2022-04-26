@@ -45,8 +45,7 @@ body {
 }
 
 #content {
-  margin-left: 1em;
-  margin-right: 1em;
+  padding: 0 20px;
   width: 100%;
   overflow-y: scroll;
 }

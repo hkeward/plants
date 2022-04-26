@@ -45,7 +45,7 @@ export default {
 }
 
 img {
-  max-width: 95%;
+  max-width: 500px;
 }
 
 table {
@@ -56,5 +56,11 @@ table,
 th,
 td {
   border: 3px solid black;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 90%;
+  }
 }
 </style>
