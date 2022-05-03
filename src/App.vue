@@ -20,6 +20,10 @@ export default {
 @import (css)
   url("https://fonts.googleapis.com/css2?family=Send+Flowers&family=Share+Tech+Mono&family=Indie+Flower&family=Permanent+Marker&display=swap");
 
+body {
+  background: #696681;
+}
+
 html,
 body {
   height: 100%;
@@ -32,7 +36,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   height: 100%;
-  background: #696681;
 }
 
 #app-view {
